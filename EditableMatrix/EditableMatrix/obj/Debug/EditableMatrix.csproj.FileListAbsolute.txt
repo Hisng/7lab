@@ -1,0 +1,15 @@
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\bin\Debug\EditableMatrix.exe.config
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\bin\Debug\EditableMatrix.exe
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\bin\Debug\EditableMatrix.pdb
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.csprojAssemblyReference.cache
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\MainWindow.g.cs
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\App.g.cs
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix_MarkupCompile.cache
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix_MarkupCompile.lref
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\MainWindow.baml
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.g.resources
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.Properties.Resources.resources
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.csproj.GenerateResource.cache
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.csproj.CoreCompileInputs.cache
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.exe
+D:\projects\OOP\7lab\EditableMatrix\EditableMatrix\obj\Debug\EditableMatrix.pdb

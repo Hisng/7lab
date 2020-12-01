@@ -1,0 +1,25 @@
+﻿<Window x:Class="Array.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Array"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="N" HorizontalAlignment="Left" Height="30" Margin="350,40,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="100"/>
+        <TextBox x:Name="Max" HorizontalAlignment="Left" Height="23" Margin="296,100,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" IsEnabled="False"/>
+        <TextBox x:Name="Min" HorizontalAlignment="Left" Height="23" Margin="296,128,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" IsEnabled="False"/>
+        <TextBox x:Name="Sum" HorizontalAlignment="Left" Height="23" Margin="296,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" IsEnabled="False"/>
+        <TextBox x:Name="Average" HorizontalAlignment="Left" Height="23" Margin="296,184,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" IsEnabled="False"/>
+        <TextBox x:Name="Odd" HorizontalAlignment="Left" Height="155" Margin="296,212,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="328" IsEnabled="False"/>
+        <TextBox x:Name="Max_Copy" HorizontalAlignment="Left" Height="23" Margin="174,100,0,0" TextWrapping="Wrap" Text="Max value" VerticalAlignment="Top" Width="122" IsEnabled="False"/>
+        <TextBox x:Name="Min_Copy" HorizontalAlignment="Left" Height="23" Margin="174,128,0,0" TextWrapping="Wrap" Text="Min value" VerticalAlignment="Top" Width="122" IsEnabled="False"/>
+        <TextBox x:Name="Sum_Copy" HorizontalAlignment="Left" Height="23" Margin="174,156,0,0" TextWrapping="Wrap" Text="Sum " VerticalAlignment="Top" Width="122" IsEnabled="False"/>
+        <TextBox x:Name="Average_Copy" HorizontalAlignment="Left" Height="23" Margin="174,184,0,0" TextWrapping="Wrap" Text="Avarage value" VerticalAlignment="Top" Width="122" IsEnabled="False"/>
+        <TextBox x:Name="Odd_Copy" HorizontalAlignment="Left" Height="155" Margin="174,212,0,0" TextWrapping="Wrap" Text="all odd values" VerticalAlignment="Top" Width="122" IsEnabled="False"/>
+
+
+
+    </Grid>
+</Window>

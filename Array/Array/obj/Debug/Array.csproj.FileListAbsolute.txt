@@ -1,0 +1,15 @@
+D:\projects\OOP\7lab\Array\Array\bin\Debug\Array.exe.config
+D:\projects\OOP\7lab\Array\Array\bin\Debug\Array.exe
+D:\projects\OOP\7lab\Array\Array\bin\Debug\Array.pdb
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.csprojAssemblyReference.cache
+D:\projects\OOP\7lab\Array\Array\obj\Debug\MainWindow.g.cs
+D:\projects\OOP\7lab\Array\Array\obj\Debug\App.g.cs
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array_MarkupCompile.cache
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array_MarkupCompile.lref
+D:\projects\OOP\7lab\Array\Array\obj\Debug\MainWindow.baml
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.g.resources
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.Properties.Resources.resources
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.csproj.GenerateResource.cache
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.csproj.CoreCompileInputs.cache
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.exe
+D:\projects\OOP\7lab\Array\Array\obj\Debug\Array.pdb

@@ -1,0 +1,15 @@
+D:\projects\OOP\7lab\Shop\Shop\bin\Debug\Shop.exe.config
+D:\projects\OOP\7lab\Shop\Shop\bin\Debug\Shop.exe
+D:\projects\OOP\7lab\Shop\Shop\bin\Debug\Shop.pdb
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.csprojAssemblyReference.cache
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\MainWindow.g.cs
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\App.g.cs
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop_MarkupCompile.cache
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop_MarkupCompile.lref
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\MainWindow.baml
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.g.resources
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.Properties.Resources.resources
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.csproj.GenerateResource.cache
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.csproj.CoreCompileInputs.cache
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.exe
+D:\projects\OOP\7lab\Shop\Shop\obj\Debug\Shop.pdb

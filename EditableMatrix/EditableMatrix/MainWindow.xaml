@@ -1,0 +1,60 @@
+﻿<Window x:Class="EditableMatrix.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EditableMatrix"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button x:Name="PlusColumnButton" Content="+" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" VerticalAlignment="Top" Width="50"  Height="20"   Click="PlusColumn_Click" IsEnabled="False" />
+        <Button x:Name="MinusColumnButton" Content="-" HorizontalAlignment="Center" Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom" Width="50"  Height="20" IsEnabled="False" Click="MinusColumn_Click"  />
+        <Button x:Name="PlusRowButton" Content="+" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Top" Width="50"  Height="20" Grid.Column="3" IsEnabled="False" Click="PlusRow_Click" />
+        <Button x:Name="MinusRowButton" Content="-" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Bottom" Width="50"  Height="20" Grid.Column="3" IsEnabled="False" Click="MinusRow_Click"/>
+        <TextBox HorizontalAlignment="Center" Grid.Column="0" Grid.Row="0" Height="60" TextWrapping="Wrap" Text="Use to edit number of columns" VerticalAlignment="Center" Width="70" IsEnabled="False"/>
+        <TextBox HorizontalAlignment="Center" Height="60" TextWrapping="Wrap" Text="Use to edit number of rows" VerticalAlignment="Center" Width="70" Grid.Column="4"  IsEnabled="False"/>
+        <TextBox x:Name="Box00" Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="1" Grid.Column="0"/>
+        <TextBox x:Name="Box10" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="1" Grid.Column="1"/>
+        <TextBox x:Name="Box20" Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="1" Grid.Column="2"/>
+        <TextBox x:Name="Box30" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="1" Grid.Column="3"/>
+        <TextBox x:Name="Box40" Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="1" Grid.Column="4"/>
+        <TextBox x:Name="Box01" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="2" Grid.Column="0"/>
+        <TextBox x:Name="Box11" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="2" Grid.Column="1"/>
+        <TextBox x:Name="Box21" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="2" Grid.Column="2"/>
+        <TextBox x:Name="Box31" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="2" Grid.Column="3"/>
+        <TextBox x:Name="Box41"  Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="2" Grid.Column="4"/>
+        <TextBox x:Name="Box02"  Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="3" Grid.Column="0"/>
+        <TextBox x:Name="Box12" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="3" Grid.Column="1"/>
+        <TextBox x:Name="Box22"  Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="3" Grid.Column="2"/>
+        <TextBox x:Name="Box32" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="3" Grid.Column="3"/>
+        <TextBox x:Name="Box42" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="3" Grid.Column="4"/>
+        <TextBox x:Name="Box03" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="4" Grid.Column="0"/>
+        <TextBox x:Name="Box13" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="4" Grid.Column="1"/>
+        <TextBox x:Name="Box23" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="4" Grid.Column="2"/>
+        <TextBox x:Name="Box33" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="4" Grid.Column="3"/>
+        <TextBox x:Name="Box43"  Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="4" Grid.Column="4"/>
+        <TextBox x:Name="Box04"  Background="GreenYellow" HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="5" Grid.Column="0"/>
+        <TextBox x:Name="Box14" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="5" Grid.Column="1"/>
+        <TextBox x:Name="Box24" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="5" Grid.Column="2"/>
+        <TextBox x:Name="Box34" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="5" Grid.Column="3"/>
+        <TextBox x:Name="Box44" Background="GreenYellow"  HorizontalAlignment="Center"  VerticalAlignment="Center" Height="60" TextWrapping="Wrap" Text="" Width="70" IsEnabled="True"  Visibility="Visible"  Grid.Row="5" Grid.Column="4"/>
+        <Button x:Name="Start" Content="Start"  Grid.Column="2" HorizontalAlignment="Center"  VerticalAlignment="Center" Width="40" Height="40" Click="StartClick"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="Shop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shop"
+        mc:Ignorable="d"
+        Title="Store" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="NameBox" HorizontalAlignment="Left" Height="70" Margin="72,52,0,0" TextWrapping="Wrap" Text="Enter the name of product" VerticalAlignment="Top" Width="264"/>
+        <TextBox x:Name="ShopBox" HorizontalAlignment="Left" Height="70" Margin="72,130,0,0" TextWrapping="Wrap" Text="Enter the shop, where you can buy this product" VerticalAlignment="Top" Width="264"/>
+        <TextBox x:Name="PriceBox" HorizontalAlignment="Left" Height="70" Margin="72,208,0,0" TextWrapping="Wrap" Text="Enter the price of product" VerticalAlignment="Top" Width="264"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="72,287,0,0" VerticalAlignment="Top" Width="264" Height="70" Click="Add_Click"/>
+        <TextBox x:Name="SearchBox" HorizontalAlignment="Left" Height="70" Margin="459,52,0,0" TextWrapping="Wrap" Text="Enter the name of product, which yuo want to find" VerticalAlignment="Top" Width="264"/>
+        <TextBox x:Name="NameBox_Copy" HorizontalAlignment="Left" Height="70" Margin="459,131,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="264" IsEnabled="False"/>
+        <TextBox x:Name="ShopBox_Copy" HorizontalAlignment="Left" Height="70" Margin="459,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="264" IsEnabled="False"/>
+        <TextBox x:Name="PriceBox_Copy" HorizontalAlignment="Left" Height="70" Margin="459,287,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="264" IsEnabled="False"/>
+
+    </Grid>
+</Window>
